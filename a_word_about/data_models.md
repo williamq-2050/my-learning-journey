@@ -1,4 +1,4 @@
-# Data model notes 
+# Data Models
 
 - Step back and ask:
   - What problem are we trying to solve?
@@ -47,6 +47,7 @@
   - Bounded Many to Many: Two nested and repeated field (array)
 
 Favor embedding references unless you have static information
+
 Interesting video about [Building Data Model Relationships - NoSQL and Redis](https://www.youtube.com/watch?v=JHMulyNImj4)
 
 ## Modeling the modern data stack
