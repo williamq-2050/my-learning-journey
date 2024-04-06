@@ -71,7 +71,8 @@ See the symbols [here](https://www.gleek.io/blog/er-symbols-notations)
 ## Specialized Modeling Tools
 - If you are lucky enough to have your company pay for one, by all means use it
 - Here some tools
-  - SAP PowerDesigner for Data Architects
+  - ER/Studio 
+  - SAP PowerDesigner
   - erwin Data Modeler
   - DbSchema
 - Look for unpaid alternatives
