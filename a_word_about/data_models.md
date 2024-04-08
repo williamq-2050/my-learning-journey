@@ -81,4 +81,4 @@ See the symbols [here](https://www.gleek.io/blog/er-symbols-notations)
 - Look for ways to embed the model generation as part of the CI/CD pipelines
 
 #
-[Back to main README](../README.md)
+[Back to main README](../README.md#a-word-about)

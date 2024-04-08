@@ -26,4 +26,4 @@ This is just a list of my preferred channels and playlists on YouTube
 
 
 #
-[Back to main README](../README.md)
+[Back to main README](../README.md#a-word-about)
