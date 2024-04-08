@@ -2,8 +2,9 @@
 Personal notes and code from my learning journey
 
 ## Snowflake
-- [Snowflake – The Complete Masterclass](https://www.udemy.com/course/snowflake-masterclass/)
-- [my files](./snowflake)
+- [My certificate](https://www.udemy.com/certificate/UC-df788bb6-91f8-4666-8231-3030901a790e/)
+- [Udemy: Snowflake – The Complete Masterclass](https://www.udemy.com/course/snowflake-masterclass/)
+- [My files](./snowflake)
 
 ## A word about 
 - [Data Models](./a_word_about/data_models.md)
