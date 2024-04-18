@@ -1,14 +1,20 @@
 # Containers
 [Docker Desktop](https://docs.docker.com/desktop/) is the go-to container management tool for developers, but there are already free and open-source options, here some of them:
-  - Docker Desktop is free for personal use, see [pricing](https://www.docker.com/pricing/)
+  - [Docker Desktop](https://docs.docker.com/desktop/) requires a [paid subscription](https://www.docker.com/pricing/) for non personal use, even the Docker Engine for OS other than Linux
+  - [Docker Engine on Linux](https://docs.docker.com/engine/install/#supported-platforms)
+  - [Podman](https://podman.io/docs/installation) or [Podman Desktop](https://podman-desktop.io/downloads)
+  - [Rancher Desktop](https://docs.rancherdesktop.io/getting-started/installation)
+  
+ 
+ I use Ubuntu on an old laptop, here is how I install them:
   - [Docker Engine](#docker-engine-on-ubuntu)
   - [Docker Engine + VSCode with Docker extension](#docker-engine-on-ubuntu--vscode)
   - [Podman](#podman-on-ubuntu)
-  - [Rancher Desktop](#podman-on-ubuntu)
+  - [Rancher Desktop](#rancher-desktop-on-ubuntu)
 
 
 ## Docker Engine on Ubuntu
-  - Install [Docker Engine](https://docs.docker.com/engine/install/ubuntu/), it is open source under the [Apache License, Version 2.0](https://docs.docker.com/engine/#licensing)
+  - Install [Docker Engine on Ubuntu](https://docs.docker.com/engine/install/ubuntu/), it is open source under the [Apache License, Version 2.0](https://docs.docker.com/engine/#licensing)
   - Uninstall all conflicting packages
     ```
     for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done
@@ -32,7 +38,7 @@
     ```
     sudo apt-get update
     sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin    
-    ```   
+    ```
   - Uninstall
     ```
     sudo apt remove --autoremove docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
@@ -42,7 +48,7 @@
     ```
 
 ## Docker Engine on Ubuntu + VSCode
-  - Install VSCode + Docker extension (ms-azuretools.vscode-docker)
+  - Install VSCode + Docker extension [ms-azuretools.vscode-docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
   - Install [Docker Engine](#docker-engine-on-ubuntu)
 
 ## Podman on Ubuntu
