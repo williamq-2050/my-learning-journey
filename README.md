@@ -10,4 +10,5 @@ Personal notes and code from my learning journey
 - [Data Models](./a_word_about/data_models.md)
 - [Interesting YouTube channels](./a_word_about/youtube_channels.md)
 - [Git commands](./a_word_about/git_commands.md)
+- [Containers](./a_word_about/containers.md)
 
