@@ -36,6 +36,36 @@
   git config --unset user.email
   ```
 
+## Using Bare repos
+  - Clone
+  ```
+  git clone --no-checkout source target
+  ``` 
+  - Refresh bare repo
+  ```
+  git fetch -p
+  ```
+  - List latest changes
+  ```
+  git log --oneline --all --graph
+  ```
+  - Create/force a branch to latest change
+  ```
+  git branch mylatest <checksum from log> -f
+
+  ```
+  - [Move HEAD](https://feeding.cloud.geek.nz/posts/setting-default-git-branch-in-bare/)
+  ```
+  git branch nn_master origin/master
+  git branch -v
+  git symbolic-ref HEAD refs/heads/nn_master
+  git branch master origin/master -f
+  git symbolic-ref HEAD refs/heads/master
+  git branch -d nn_master
+
+  git log --oneline --all --graph
+  ```
+
 
 
   #
