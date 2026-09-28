@@ -11,4 +11,5 @@ Personal notes and code from my learning journey
 - [Interesting YouTube channels](./a_word_about/youtube_channels.md)
 - [Git commands](./a_word_about/git_commands.md)
 - [Containers](./a_word_about/containers.md)
+- [Systems Thinking](./a_word_about/systems_thinking.md)
 
