@@ -1,5 +1,23 @@
 # Some Git commands
 
+## Set up and use a second SSH key for this GitHub account.
+  - Generate the key
+  ```
+  GIT_EMAIL=$(git config user.email)
+  ssh-keygen -t ed25519 -C "$GIT_EMAIL" -f ~/.ssh/id_ed25519_github_personal
+  ```
+
+  - Copy the text below and add it to your GitHub SSH Settings
+  ```
+  cat ~/.ssh/id_ed25519_github_personal.pub
+  ``` 
+
+  - Add the new key to your SSH Agent
+  ```
+  eval "$(ssh-agent -s)"
+  ssh-add ~/.ssh/id_ed25519_github_personal
+  ```
+
 ## To use the same config for all your repos
   - List global config
   ```
